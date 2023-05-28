@@ -1,0 +1,101 @@
+/* CSS Document */
+
+body{
+margin:0px;
+padding:0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:17px;
+}
+h3{font-size:12px;
+background:url(../images/bullet.png) no-repeat 10px 10px;
+padding:8px 0px 8px 25px;}
+.topborder{	background:url(../images/top_repeat.jpg) repeat;}
+.top_flower{background:#A34004;	height:157px;}
+
+.top_text{color:#F5EEDD;font-size:12px;line-height:17px;padding:5px; }	
+.top_text a{color:#F5EEDD;text-decoration:none;}	
+.top_text a:hover{color:#FF9900;text-decoration:none;}	
+
+.menu{color:#FFFFCC;font-weight:bold; font-size:11px; padding-bottom:10px;}
+.menu a{color:#FFFFCC;font-weight:bold;text-decoration:none;}
+.menu a:hover{color:#FF9900;font-weight:bold;text-decoration:none;}
+.footer{color:#000000;}
+.footer a{color:#000000;text-decoration:none;}
+.footer a:hover{color:#990000;text-decoration:none}
+
+.heading{
+font:15px Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#955F4D;
+}
+.heading a{color:#955F4D;text-decoration:none}
+.heading a:hover{color:#990000;text-decoration:none}
+.txt_brg {
+font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+color:#955F4D;
+background:#FFFFFF url(../images/txt_brg.png) repeat-x;
+height:20px;
+border: #E0C692 1px solid;
+}
+.txt_brg_textarea {
+font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+color:#955F4D;
+background:#FFFFFF url(../images/txt_brg.png) repeat-x;
+border: #E0C692 1px solid;
+}
+
+h3.swarup-photo{background:url(../images/swarup_thumb.jpg) no-repeat 10px 0px;height:30px;float:left;padding:20px 0px 0px 65px;}
+h3.shakti-photo{background:url(../images/sakti_tirth.jpg) no-repeat 10px 0px;height:30px;float:left;padding:20px 0px 0px 65px;}
+h3.gabbar-photo{background:url(../images/gabbertirth.jpg) no-repeat 10px 0px;height:30px;float:left;padding:20px 0px 0px 65px;}
+h3.devotion-photo{background:url(../images/devotion.jpg) no-repeat 10px 0px;height:30px;float:left;padding:20px 0px 0px 65px;}
+
+
+.swarup{background:url(../images/yellowback.jpg) repeat-x;height:51px;}
+.shakti{background:url(../images/greayback.jpg) repeat-x;height:51px;}
+.gabbar{background:url(../images/yellowback.jpg) repeat-x;height:51px;}
+.devotion{background:url(../images/greayback.jpg) repeat-x;height:51px;}
+
+.mj_left{float:left;background:url(../images/swarup_thumb.jpg) no-repeat;height:51px;	width:49px;}
+.mj_right_border{border-right:#E0C692 1px solid;float:right;width:10px;position:relative;top:9px;height:50px;z-index:0;}
+.mj_left_border{border-left:#E0C692 1px solid;float:left;width:10px;position:relative;top:9px;height:50px;}
+
+.mj_right_border_greay{border-right:#CCCCCC 1px solid;float:right;width:10px;position:relative;top:9px;height:50px;}
+.mj_left_border_greay{border-left:#CCCCCC 1px solid;float:left;width:10px;position:relative;top:9px;height:50px;}
+
+
+.mj_link {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+.mj_link a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+.mj_link a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#955F4D;
+}
+
+
+.contents_main_function{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+.contents_main_function a{color:#000000;text-decoration:none}
+.contents_main_function a:hover{color:#990000;text-decoration:none}
+.gallery_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight:bold;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+.gallery_title a {	color: #FFFFFF; text-decoration: none;}
+.gallery_title a:hover { color: #FF9900;	text-decoration: none;}

@@ -1,0 +1,40 @@
+<?php
+require_once 'library/config.php';
+
+    $username 	= $_POST['Name'];
+	$add 		= $_POST['Address'];
+	$city 	    = $_POST['City'];
+	$pin 	    = $_POST['Pin'];
+	$phone 		= $_POST['Contact_No'];
+	$email 		= $_POST['Email'];
+	$suggestion = $_POST['Suggestion'];
+	
+	
+	//echo $username;
+	//echo $add;
+	//echo $city;
+	//echo $pin;
+	//echo $phone;
+	//echo $email;
+	//echo $suggestion;
+	
+	
+	// check if the username is taken
+	//$sql = "SELECT own_user_name FROM ".prefix."owner WHERE own_user_name = '$username'";
+	//$result =mysql_query($sql);
+	
+	//if (dbNumRows($result) == 1) {
+		//header('Location: index.html?view=registration&temp=2&error=Username already taken. Choose another one&username='.$username.'&firstname='.$firstname.'&lastname='.$lastname.'&phone='.$phone.'&email='.$email.'&add1='.$add1.'&add2='.$add2.'&city='.$city.'&state='.$state.'&zip='.$zip.'&country='.$country);	
+	//} else {			
+		$sql = "INSERT INTO shrivbkt_feedback (user_name, address, city, pincode, phone, email, suggestion,create_date) VALUES ('$username', '$add', '$city', '$pin', '$phone', '$email', '$suggestion', now())";
+		$result = mysql_query($sql) or die("ror: ".mysql_error());
+		
+		
+		//$ownerId		= dbInsertId();
+		//mailToAdministrator($ownerId);
+		//mailToOwner($ownerId);
+		
+		header('Location: feedback.php?feedback=success');	
+	//}
+	
+?>

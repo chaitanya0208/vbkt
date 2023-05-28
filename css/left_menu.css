@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+/* for pull-down menu to work in IE6*/
+behavior:url(csshover2.htc);  
+}
+.mainmenu{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	float: left;
+	width: 100%;
+	padding: 0 0 0 0;
+	z-index:1111;
+}
+
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color:#FFFFCC;
+	background: #712911;
+	padding: 0;
+	border: solid transparent;
+	border-width: 1px 0;
+	margin: 0 0 1em 0;
+	z-index:1111;	
+}
+
+.mainmenu a, .mainmenu a:visited {
+display: block;
+	color: #FFFFCC;
+	text-decoration: none;
+	padding: 3px 5px;
+	z-index:1111;	
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+	z-index:1111;	
+}
+.mainmenu ul a{
+	width:1%;
+	z-index:1111;	
+}
+
+
+.mainmenu li  {
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	float: left;
+	margin:0;
+	padding:0;
+	z-index:1111;	
+}
+
+.mainmenu ul li {float:left; position:relative; }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+		padding:3px;	
+	left: -999em;
+	height: auto;
+	width:230px;		/* menu width */
+	background: #712911;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+	z-index:1111;	
+}
+
+.mainmenu li li {
+	width:225px;
+}
+
+.mainmenu li li a{
+	width:225px ;
+} 
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul li {
+	padding:3px;
+	/* width:200px;		/*  submenu width */
+}
+
+.mainmenu li ul ul {	
+	font-size:11px;
+	font-weight:bold;
+	margin: -1em 0 0 10em;
+	width:230px;		/*  submenu width */
+}
+
+
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+
+}
+
+.mainmenu li:hover{
+	background: transparent;
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:#FF9900;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:#FFFFCC;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background: #A34004;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: #FF9900; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color: #FFFFCC;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #FF9900;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #FFFFCC;
+}
+
+
+/* end of mainmenu css */
+
+
+

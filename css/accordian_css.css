@@ -1,0 +1,131 @@
+/* CSS Document */
+.glossymenu{
+margin: 0px 0;
+padding: 0;
+width: 200px; /*width of menu*/
+text-align:right;
+}
+.glossymenu a.menuitem{
+font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+color:#E0C692;
+display: block;
+width: auto;
+padding: 1px 0;
+padding-left: 10px;
+text-decoration: none;
+text-align:right;
+}
+
+.glossymenu a.menuitem:hover{
+color:#ffffff;
+text-decoration: none;
+}
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{color: #E0C692;}
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+.glossymenu a.menuitem:hover{background-image: url(../images/glossyback2.gif);}
+.glossymenu div.submenu{/*DIV that contains each sub menu*/
+font:13px Verdana, Arial, Helvetica, sans-serif;
+color:#E0C692;
+text-align:right;
+}
+.glossymenu div.submenu a{/*DIV that contains each sub menu*/
+color:#783319;
+font-weight:bold;
+text-decoration:none;
+text-align:right;
+}
+.glossymenu div.submenu a:hover{/*DIV that contains each sub menu*/
+color:#ffffff;
+text-decoration:none;
+}
+
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.glossymenu div.submenu ul li{border-bottom: 1px solid blue;}
+.glossymenu div.submenu ul li a{
+display: block;
+font:bold 13px Verdana, Arial, Helvetica, sans-serif;
+color: #B66A30;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 20px;
+}
+.glossymenu div.submenu ul li a:hover{background: #DFDCCB;color: white;}
+/**************PART 2*****************************************
+.arrowlistmenu{
+width: 180px; /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+color: white;
+background: black url(../images/titlebar.png) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(../images/titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li .opensubheader{ /*Open state CSS for sub menu header*/
+background: lightblue !important;
+}
+
+.arrowlistmenu ul li .closedsubheader{ /*Closed state CSS for sub menu header*/
+background: lightgreen !important;
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(../images/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+background-color: #F3F3F3;
+}
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+background: lightblue;
+}
+
+/*/.......added by sandip.........*/
+.main_left_item{background:url(../img/bg-menu-item-green.png) no-repeat;
+width:206px;height:36px;color:#E0C692;text-align:right;padding:0px 5px;
+font-weight:bold;}
+.sub_menu_items{text-align:right;padding:0px 10px 0px 0px ;}
